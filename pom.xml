@@ -24,7 +24,7 @@ the "C:\Users\Kelly-Ann\.m2\repository\org\kelly_ann\HelloMaven\1.0-SNAPSHOT" fo
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.1</version>
+				<version>3.3</version>
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
@@ -34,7 +34,7 @@ the "C:\Users\Kelly-Ann\.m2\repository\org\kelly_ann\HelloMaven\1.0-SNAPSHOT" fo
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.4</version>
+				<version>2.6</version>
 				<configuration>
 					<useDefaultManifestFile>true</useDefaultManifestFile>
 				</configuration>
@@ -43,7 +43,7 @@ the "C:\Users\Kelly-Ann\.m2\repository\org\kelly_ann\HelloMaven\1.0-SNAPSHOT" fo
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
-				<version>2.2.1</version>
+				<version>2.4</version>
 				<executions>
 					<execution>
 						<id>attach-sources</id>
@@ -58,7 +58,7 @@ the "C:\Users\Kelly-Ann\.m2\repository\org\kelly_ann\HelloMaven\1.0-SNAPSHOT" fo
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.9</version>
+				<version>2.10.3</version>
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>
